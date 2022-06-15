@@ -6,6 +6,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
 .card {
   border-left: 0;
   border-top: 0;
@@ -17,21 +23,21 @@ body {
   height: 450px;
 }
 
-.card-img-overlay {
+.card-image-text {
   max-width: 100%;
 }
-.card-img-overlay h5 {
+.card-image-text h5 {
   color: #f9f9f9;
   font-size: 62px;
   line-height: 1.2;
   padding-top: 7%;
 }
-.card-img-overlay p {
+.card-image-text p {
   color: #f9f9f9;
   font-size: 18px;
   line-height: 1.2;
 }
-.card-img-overlay button {
+.card-image-text .button-start {
   font-size: 16px;
   color: white;
 }
@@ -78,6 +84,56 @@ body {
   text-transform: uppercase;
   justify-content: center;
   margin: auto;
+}
+
+.image {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card-image-text-second {
+  max-width: 100%;
+}
+.card-image-text-second h5 {
+  color: #f9f9f9;
+  font-size: 62px;
+  line-height: 1.2;
+  padding-top: 7%;
+  text-align: end;
+}
+.card-image-text-second p {
+  text-align: end;
+  color: #f9f9f9;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.card-image-text-second button {
+  font-size: 16px;
+  color: white;
+}
+
+.footer-text {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.footer-text-second {
+  font-size: 40px;
+  top: 0;
+  font-weight: bold;
+}
+
+@media all and (max-width: 384px) {
+  .card-img-overlay h5 {
+    font-size: 46px;
+  }
+  .card-img-overlay p {
+    font-size: 14px;
+  }
+
+  .navbar {
+    position: relative;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
