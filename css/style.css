@@ -14,32 +14,70 @@ body {
 }
 
 .bg-image {
-  height: 70vh;
+  height: 450px;
 }
 
+.card-img-overlay {
+  max-width: 100%;
+}
 .card-img-overlay h5 {
   color: #f9f9f9;
   font-size: 62px;
   line-height: 1.2;
-  padding-left: 7%;
   padding-top: 7%;
 }
 .card-img-overlay p {
   color: #f9f9f9;
   font-size: 18px;
   line-height: 1.2;
-  padding-left: 7%;
 }
 .card-img-overlay button {
-  margin-left: 7%;
   font-size: 16px;
   color: white;
 }
 
-@media all and (max-width: 384px) {
-  .card-img-overlay h5 {
-    font-size: 43px;
-  }
+.box-for-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+.box-for-text .right-text {
+  flex-direction: column;
+}
+.box-for-text .right-text p {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.box-for-text .right-text h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.box-for-text .left-text {
+  width: 45%;
+}
+
+.images {
+  margin-top: 5%;
+}
+
+.image-number-positon .text-number {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  left: 5%;
+  top: 5%;
+  right: auto;
+  bottom: auto;
+  font-weight: 700;
+}
+.image-number-positon .text-center {
+  position: absolute;
+  color: #f9f9f9;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
